@@ -1,0 +1,29 @@
+﻿<html>
+<h1>Luxs Hotel</h1>
+<h3>จองห้องพัก	  </h3>
+<br>
+<body>
+<form action="INSERT.php" method="post">
+  Hotel Branch:
+  <select type="text" name="hname" >
+  <option value="bangkok"selected> bangkok	</option>
+  <option value="ChiangMai"> Chiang Mai</option> 
+  <option value="Phuket">Phuket</option> 
+  <option value="Yasothon">Yasothon</option> 
+  </select>
+  <br><br>
+  Check-in: <input type="date" name="datein" value="1995-08-27"/>
+  Check-out:<input type="date" name="dateout" value="1995-08-27"/>
+  <br><br>
+  Adults:<input type="number"  style="width:60px" name="Adults" step="1" min="1" value="1"/>
+  Child:<input type="number"   style="width:60px" name="Child" step="1" min="0" value="0"/>
+  RoomID:<input type="number"   style="width:60px" name="roomid" step="1" min="1001" value="1001"/>
+  <br><br>
+  mem_ID:<br><input type="text" name="mem_ID" ><br> 
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
